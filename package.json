@@ -4,7 +4,7 @@
   "description": "A level db Simple Search Server",
   "main": "index.js",
   "scripts": {
-    "test": "tap test/*_test.js"
+    "test": "jshint **/*.js && tap test/*_test.js"
   },
   "keywords": [
     "leveldb",
@@ -23,6 +23,7 @@
     "subarg": "0.0.1"
   },
   "devDependencies": {
-    "tap": "^0.4.9"
+    "tap": "^0.4.9",
+    "jshint": "^2.5.1"
   }
 }
