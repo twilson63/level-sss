@@ -1,8 +1,11 @@
 {
-  "name": "sss",
+  "name": "level-sss",
   "version": "0.0.1",
   "description": "A level db Simple Search Server",
   "main": "index.js",
+  "bin": {
+    "sss": "./bin/sss"
+  },
   "scripts": {
     "test": "jshint **/*.js && tap test/*_test.js"
   },
