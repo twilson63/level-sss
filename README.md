@@ -9,7 +9,7 @@ to either index or search.
 ## install and start servers
 
 ``` sh
-npm install sss -g
+npm install level-sss -g
 sss --index=[ --port=5000 --secret=foo ] --query[ --port=6000 --secret=bar ]
 ```
 
